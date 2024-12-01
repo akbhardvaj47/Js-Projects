@@ -1,0 +1,33 @@
+.calculator {
+    width: 300px;
+    border-radius: 5px;
+    margin: auto;
+    border: 1px solid rgb(175, 171, 171);
+    background: linear-gradient(45deg, white, black);
+  }
+
+  #input{
+    margin: 17px;
+    width: 85%;
+    border-radius: 10px;
+    box-shadow: 2px 1px 0px 2px gray;
+    font-size: 40px;
+    text-align: right;
+  }
+  .button-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .button {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+    box-shadow: 2px 1px 0px 2px gray;
+  }
+  .button-container #equal {
+    background-color: orangered;
+    color: aliceblue;
+  }
