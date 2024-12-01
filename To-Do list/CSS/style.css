@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: turquoise;
+}
+.container{ 
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px;
+    width: 300px;
+    height: 60vh;
+    margin: auto;
+    background-color: white;
+    overflow-y: auto;
+}
+.task{
+    display: flex;
+    border-radius: 30px;
+    background-color: rgb(228, 227, 225);
+    height: 40px;
+    margin: auto;
+}
+input{
+    border: none;
+    background: transparent;
+    outline: none;
+    font-size: 16px;
+    padding-left: 20px;
+}
+input::placeholder{
+    padding-left: 5px;
+}
+.addbtn{
+    border-radius: 20px;
+    background: rgb(3, 250, 27);
+    border: none;
+    color: white;
+    padding: auto 30px;
+    width: 100px;
+    margin-left: auto;
+    cursor: pointer;
+}
+ul{
+    list-style: decimal;
+    border-radius: 5px;
+    padding: 20px auto;
+    background: #7ecdf268;
+    border: 0.5px solid black;
+}
+
+ul button{
+    padding: 5px 15px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background: red;
+    float: right;
+}
+li{
+    text-align: left;
+    height: 20px;
+    padding: 10px;
+    box-shadow: 0px 1px 2px 0px black;
+}
+
+
+
