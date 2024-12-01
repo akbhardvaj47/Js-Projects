@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Weather</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="main">
+            <input type="text" placeholder="Enter City Name" class="input">
+            <div class="search">
+                <img src="../image/search.png" class="searchbtn" width="30px" height="30px" alt="">
+            </div>
+        </div>
+        <p class="error" style="color: red;"></p>
+        <div class="weather-body">
+            <div class="centerimg">
+                <img src="../image/rain.png" class="weatherimg" width="150px" alt="">
+                <h1 class="temp">30<sup>o</sup>C</h1>
+                <h2 class="city">Lucknow</h2>
+            </div>
+            <ul>
+                <li>
+                    <div class="icon">
+                        <img src="../image/humidity.png" width="30px" alt="">
+                        <p><span class="humidity">89%</span><br>Humidity</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="icon">
+                        <img src="../image/wind.png" width="35px" alt="">
+                        <p><span class="wind">1.03 km/h</span><br>Wind Speed</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script src="../js/script.js"></script>
+</body>
+
+</html>
