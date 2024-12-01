@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+    background: rgba(0,0,0,0.5);
+}
+.container{
+    background-color: rgba(50, 49, 49, 0.478);
+    border-radius: 10px;
+    text-align: center;
+    padding: 30px;
+}
+.clock-timer{
+    font-size: 50px;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 2px;
+    padding: 20px;
+}
+ button{
+    padding: 12px 24px;
+    border-radius: 10px;
+    border: none;
+    margin: auto 5px;
+    color: white;
+ }
+ button:nth-child(1){
+    background-color: green;
+ }
+ button:nth-child(2){
+    background-color: red;
+ }
+ button:nth-child(3){
+    background-color: blue;
+ }
